@@ -48,6 +48,12 @@ Adaptar para um provedor diferente do original trouxe problemas que não estavam
 
 ## Como rodar
 
+> **Atenção ao `main_rag.py`:** ele lê três PDFs da pasta `documentos/`
+> (`GTB_standard_Nov23.pdf`, `GTB_gold_Nov23.pdf` e `GTB_platinum_Nov23.pdf`),
+> que são material do curso da Alura e por isso não estão neste repositório.
+> Crie a pasta `documentos/` e coloque ali seus próprios PDFs (ajustando os
+> nomes na lista `arquivos` do script), ou use os arquivos do repositório do curso.
+
 ```bash
 python -m venv venv
 .\venv\Scripts\activate       # Windows
